@@ -12,9 +12,13 @@
 </ul>
 
 <p>Application screen:</p>
+
 ![Screen](.github/fb-layout-react-img.png)
+
 <br>
 (Responsive screen: components will adjust to screen size changes)
 
   ### :memo: License
   This project is under MIT license. Check [LICENSE](LICENSE.md) for details.
+ 
+ <hr>
