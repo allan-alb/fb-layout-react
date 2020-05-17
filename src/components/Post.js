@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Comment from './Comment';
+import NewComment from './NewComment';
 
 class Post extends Component {
 
@@ -18,6 +19,8 @@ class Post extends Component {
         </div>
         <div className="separator" />
         {this.props.data.comments.map(comment => <Comment key={comment.id} data={comment} />)}
+        
+        <NewComment data={this.props.data} />
       </div>
     )
   }

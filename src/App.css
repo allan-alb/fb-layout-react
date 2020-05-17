@@ -80,7 +80,7 @@
 }
 
 .post .post-info img {
-  height: 30px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .post .comment img {
-  height: 25px;
+  height: 32px;
   border-radius: 50%;
 }
 
@@ -137,4 +137,31 @@
 
 .post .comment .comment-content span {
   font-weight: 600;
+}
+
+.post .newcomment {
+  margin: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.post .newcomment img {
+  height: 32px;
+  border-radius: 50%;
+}
+
+.post .newcomment textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  resize: none;
+  flex: 1 1 auto;
+  overflow: hidden;
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: 1px solid #DADDE1;
+  border-radius: 20px;
+  width: 622px;
+  min-width: 100px;
+  height: 37px;
 }
